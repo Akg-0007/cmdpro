@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* background-color: #459f0b; */
+  }
+  body{
+    min-height: 100vh;
+    background-image: url("./assets/pattern.png");
+    background-color: #459f0b;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .listofaction{
+    /* width: 60%; */
+   max-width: 1000px;
+   margin: 10px auto;
+    /* background-color: #fbfbfb; */
+   
+  }
+  .loa-header{
+    display:flex;
+    justify-content:space-between;
+    padding: 2rem;
+  }
+  .del-innerdiv{
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin:0.5rem;
+    background-color: #f8f8f8;
+    padding: 0.7rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .del-innerdivicons{
+    display:flex;
+    justify-content:space-between;
+  }
+  .innerdivdetails{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pdetail{
+    width: 50%;
+    font-size: 12px;
+
+  }
+  .lor{
+    font-size: 15px;
+    color: #459f0b;
+  }
+  .p-bold{
+    font-weight: 700;
+
+  }
+  .delete{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.4rem;
+    padding-right: 0;
+  }
+  .one{
+    background-color: #459f0b;
+    color: white;
+    border: 1px solid grey;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  .listof{
+    color: #459f0b;
+  }
+  .head{
+    background-image: url("./assets/img/banner.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    height: 68px;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+.main{
+    background-color: #f2f3f3;
+}
+.btn{
+    padding: .4rem;
+    border-radius: 3px;
+    /* margin-left: 1rem; */
+    margin-right: 1rem;
+    border: none;
+    background-color: #484747;
+    color: white;
+}
+
+
+#popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#popup img {
+  display: block;
+  margin: 0 auto;
+}
+.f-lex{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.c-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+
+}
+#select1{
+  padding-right: 9rem;
+}
+.first,.second,.third{
+  margin-left: 10px;
+}
